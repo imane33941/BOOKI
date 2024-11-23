@@ -1,0 +1,26 @@
+.textes {
+    display: flex;
+    flex-direction: column;
+}
+
+.textes h1 {
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+
+.textes p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 767.98px) {
+    .textes {
+        padding: 10px;
+        padding-left: 20px;
+    }
+
+    .textes h1 {
+        font-size: 20px;
+    }
+}

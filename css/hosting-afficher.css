@@ -1,0 +1,53 @@
+/* SECTION HEBERGEMENTS */
+
+.hebergements-grid  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 240px);
+    grid-gap: 30px;
+ }
+
+.hebergements-cards img {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 9px;
+}
+
+.hebergements-cards p, 
+.hebergements-cards h3, 
+.card-rating {
+    margin: 0 0 5px 0;
+    padding:  0px 0 0px 10px;
+}
+
+.afficher-plus {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+    .hebergements {
+        margin-bottom: -35px;
+    }
+    .hebergements-grid  {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+}
+
+@media (max-width: 767.98px) {
+    .hebergements-and-populaires .hebergements {
+        background-color: white;
+        padding: 20px;
+    }
+
+    .hebergements {
+        order: 2;
+    }
+    .hebergements-grid  {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 200px);
+        grid-gap: 15px;
+    }
+}

@@ -1,0 +1,62 @@
+/* SECTIOB ACTIVITES */
+
+.activities {
+    margin-top: 60px;
+}
+
+.activities h2 {
+    margin-inline-start: 5px;
+    margin-bottom: 40px;
+}
+
+.activities-list {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 530px);
+}
+
+.activites-card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    padding: 0;
+    opacity: 0.9;
+    
+}
+
+.activities-list img {
+    width: 100%;
+    height: 89%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.activities-list h3 {
+    margin: 20px;
+    padding:  10px; 
+    margin-top: auto;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .activites-card img {
+        height: 195px;
+    }
+    .activities-list {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 260px);
+        
+    }
+
+@media (max-width: 767.98px) {
+    .activities {
+        padding: 20px;
+    }
+    .activities-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .activites-card a img {
+        height: 160px;
+    }
+}

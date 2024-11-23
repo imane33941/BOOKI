@@ -1,0 +1,41 @@
+/* SECTION FOOTER */
+
+.footer {
+    display: flex;
+    background: #F2F2F2;
+    margin-top: 75px;
+    margin-bottom: 0px;
+}
+.footer-list {
+    width: 34%;
+    padding: 20px;
+}
+.footer-list h3 {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 0;
+}
+.footer-link {
+    padding: 0;
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+@media (max-width: 767.98px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+    .footer-list  {
+        width: max-content;
+        
+    }
+    .footer-list a {
+        font-size: 15px;
+    }
+}

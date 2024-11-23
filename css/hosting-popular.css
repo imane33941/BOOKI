@@ -1,0 +1,24 @@
+/* SECTION HEBERGEMENTS & POPULAIRES */
+
+.hebergements-and-populaires {
+    display: flex;
+    grid-template-columns: 67% 33%;
+    justify-content: space-between;
+    grid-gap: 30px;
+}
+
+.hebergements-and-populaires section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+@media (max-width: 1024px) {
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+}
+
+
+
+

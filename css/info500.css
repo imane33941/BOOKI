@@ -1,0 +1,21 @@
+/* SECTION INFO */
+
+.info-logement {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.info-logement i {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    color: #0065FC;
+    border-radius: 50%;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    min-width: 23px;
+    height: 23px;
+    margin-bottom: 27px;
+}
+
