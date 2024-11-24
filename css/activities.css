@@ -47,7 +47,7 @@
         grid-template-rows: repeat(1, 260px);
         
     }
-
+}
 @media (max-width: 767.98px) {
     .activities {
         padding: 20px;
