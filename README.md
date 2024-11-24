@@ -2,7 +2,7 @@
 
 Deuxième projet du parcours javascript-react chez OpenClassrooms. L'objectif est d'intégrer la maquette d'un site de planification de vacances nommé "Booki" (voir l'image ci-dessous).
 
-![Booki](Maquette-découpée.pdf)
+![Booki](/images/Maquette-découpée.png)
 
 ## Spécifications fonctionnelles
 
