@@ -29,4 +29,4 @@ Deuxième projet du parcours javascript-react chez OpenClassrooms. L'objectif es
 - Validateur W3C : Outil pour vérifier que le code est conforme aux standards du Web.
 - Visual Studio Code : Editeur de codes
 
-Venez visiter mon site https://imane33941.github.io/BOOKI/
+Venez visiter mon site https://imane33941.github.io/Booki/
