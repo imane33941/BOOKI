@@ -69,13 +69,9 @@
     opacity: 1;
 }
 
-.fa-location-dot {
-    color: black;
-}
-
 @media (max-width: 1024px) {
     .search-form {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .search-submit-medium input {
@@ -94,7 +90,7 @@
         display: none;
     }
     .search-submit-medium {
-        display: flex !important;
+        display: flex ;
     }
     .fas {
         width: 60px;

@@ -1,7 +1,6 @@
 /* section header */
 
 header {
-    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -33,11 +32,7 @@ nav .menu {
 }
 
 @media (max-width: 1024px) {
-    header {
-        margin-bottom: 15px;
-    }
     header img {
-        /* align-self: flex-start; */
         height: 25px;
     }
 }
@@ -54,7 +49,6 @@ nav .menu {
     }
     nav .menu {
         gap: inherit;
-        /* margin: 0; */
     }
     .menu a {
         flex-basis: 100%;

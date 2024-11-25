@@ -33,7 +33,6 @@ body {
 .main-container {
     max-width: 1440px;
     margin: 0 20px;
-    padding-right: 20px;
 }
 
 a {
@@ -92,9 +91,6 @@ ul {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .main-container {
-        padding: 0px 10px;
-    }
     .card-rating i {
         font-size: 13px;
     }
@@ -102,7 +98,6 @@ ul {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-
     body {
         margin: 0;
     }

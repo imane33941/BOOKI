@@ -50,4 +50,7 @@
         grid-template-rows: repeat(6, 200px);
         grid-gap: 15px;
     }
+    .afficher-plus {
+        margin-top: 25px;
+    }
 }

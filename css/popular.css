@@ -1,7 +1,6 @@
 .populaires-title {
     display: flex;
     justify-content: space-between;
-    /* align-items: start; */
     
 }
 
@@ -90,6 +89,6 @@
 
     .hebergements-and-populaires .populaires {
         border-radius: 0;
-        padding: 20px;
+        padding: 25px;
     }
 }
