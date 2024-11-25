@@ -1,4 +1,4 @@
-/* SECTIOB ACTIVITES */
+/* SECTION ACTIVITES */
 
 .activities {
     margin-top: 60px;
@@ -39,13 +39,13 @@
 }
 
 @media (max-width: 1024px) {
-    .activites-card img {
-        height: 195px;
-    }
     .activities-list {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(1, 260px);
         
+    }
+    .activites-card img {
+        height: 195px;
     }
 }
 @media (max-width: 767.98px) {
