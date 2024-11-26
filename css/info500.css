@@ -3,7 +3,7 @@
 .info-logement {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 11px;
 }
 
 .info-logement i {

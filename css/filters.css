@@ -24,7 +24,7 @@
     justify-content: center;
     border: 2px solid #d9d9d9;
     border-radius: 25px;
-    gap: 17px;
+    gap: 14px;
     font-weight: bold;
     font-size: 17px;
     padding: 12px;
@@ -53,8 +53,8 @@
     }
     .filtres {
         font-size: 15px;
-        padding: 13px 16px;
-        flex: 1 1 40%;
+        padding: 15px 16px;
+        flex: 1 1 35%;
         
     }
 }
