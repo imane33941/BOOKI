@@ -5,7 +5,8 @@
 }
 
 .populaires-cards {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
@@ -52,6 +53,7 @@
     }
     .populaires-cards {
         display: flex;
+        flex-direction: row;
     }
 
     .populaires-cards a {
